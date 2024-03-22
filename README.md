@@ -1,4 +1,4 @@
-### Hi there 👋
+
 
 <h1 align="center">Hi 👋, I'm Kashi Viswanath Kuurva</h1>
 <h3 align="center">A passionate Java full-stack web developer from India</h3>

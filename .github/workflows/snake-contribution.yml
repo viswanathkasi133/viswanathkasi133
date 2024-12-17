@@ -2,30 +2,30 @@ name: Generate Snake
 
 on:
   schedule:
-    # every 6 hours
+    # Every 6 hours
     - cron: "0 */6 * * *"
-  workflow_dispatch:
+  workflow_dispatch: # This allows you to trigger it manually
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checks repo under $GITHUB_WORKSPACE, so your job can access it
+      # Checks out your repository so that the action can access it
       - uses: actions/checkout@v2
 
-      # Generates the snake  
+      # Generate the snake GIF
       - uses: Platane/snk@master
         id: snake-gif
         with:
           github_user_name: viswanathkasi133  # Replace with your GitHub username
-          # Change the output path to avoid conflict
+          # Path for snake GIF and SVG files
           gif_out_path: github-snake/github-contribution-grid-snake.gif
           svg_out_path: github-snake/github-contribution-grid-snake.svg
 
-      # Show the status of the build. Makes it easier for debugging (if there's any issues).
+      # Display the status for debugging
       - run: git status
 
-      # Commit and push the changes to the master branch
+      # Commit and push the changes to the main branch
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

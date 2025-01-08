@@ -15,7 +15,7 @@
 
 ### 🚀 About Me:
 - 🌱 Currently learning **Data Structures & ReactJS**.
-- 👨‍💻 All of my projects are available at [My Portfolio](https://viswanathkasi133.github.io/Portfolio/).
+- 👨‍💻 All of my projects are available at [My Portfolio](https://viswanathkasi133.github.io/Personal_Portfolio/).
 - 📫 Reach me at **viswanathkasi133@gmail.com**.
 - 📄 [Check out my Resume](https://drive.google.com/drive/u/0/folders/1KHBQCktAU-qNDHZqmchd2VXqi0pAUzUK).
 
